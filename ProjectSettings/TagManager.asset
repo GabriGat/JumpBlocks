@@ -10,6 +10,7 @@ TagManager:
   - Flag_03
   - Flag_04
   - Flag_05
+  - Probe
   layers:
   - Default
   - TransparentFX
