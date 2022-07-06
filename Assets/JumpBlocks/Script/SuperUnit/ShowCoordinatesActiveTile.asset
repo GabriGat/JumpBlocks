@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ShowCoordinatesActiveTile
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"input","label":"","summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"output","label":"","summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"GameObject","label":"GameObject","summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Row","label":"Row","summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Colomn","label":"Column","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":189.0,"y":171.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-470.0,"y":83.0},"guid":"90b04a2c-ff0a-4670-889f-736514b00604","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":655.0,"y":159.0},"guid":"4f34aa33-1094-407a-9dc8-0db9a23e5f3c","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"16"},{"kind":"Scene","defaultValues":{"name":{"$content":"Row","$type":"System.String"}},"position":{"x":-58.0,"y":62.0},"guid":"bc8eb8c1-b665-4957-867b-ac2ee0913f47","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"18"},{"kind":"Scene","defaultValues":{"name":{"$content":"Column","$type":"System.String"}},"position":{"x":320.0,"y":146.0},"guid":"2c4e798a-2dfe-404f-8253-1a2631bc2fc0","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"20"},{"sourceUnit":{"$ref":"18"},"sourceKey":"assigned","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"6eadedf4-8456-4bcb-9f4c-be7b45be7820","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"input","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"b2ddbf1f-8cc9-49af-b1df-e1310e64fe86","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"assigned","destinationUnit":{"$ref":"16"},"destinationKey":"output","guid":"df59d420-dde2-4cf1-bce0-9d4a1f937812","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Row","destinationUnit":{"$ref":"18"},"destinationKey":"input","guid":"f6f8328b-526e-44fb-a4fa-2d543f8249ae","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Colomn","destinationUnit":{"$ref":"20"},"destinationKey":"input","guid":"7fd9f39c-6d27-47f5-8914-e1165711f3ed","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
